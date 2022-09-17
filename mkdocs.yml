@@ -20,7 +20,8 @@ theme:
 
 nav:
   - Home:
-    - Overview: 'index.md'
+    - Getting started: 'index.md'
+    - Getting stuck: 'stuck.md'
     - Guidelines: 'guidelines.md'
     - Contributors: 'contributors.md'
     - Etiquette: 'etiquette.md'

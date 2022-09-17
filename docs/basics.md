@@ -1,6 +1,8 @@
 
 # Basics
 
+Each point in this page needs to be converted to a separate note. Please contribute with a pull request.
+
 ### Operating System
 
 1. Installing a functional UNIX/Linux operating system.
@@ -22,4 +24,13 @@
 1. Creating account on github with SSH access
 2. git basics: clone, pull, status, diff, add, commit, reset, push
 4. Working with branches: checkout, rebase, merge
+
+
+### Markdown
+
+Coming soon
+
+### mkdocs
+
+Coming soon
 
