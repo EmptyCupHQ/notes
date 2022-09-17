@@ -2,6 +2,7 @@ site_name: Notes
 site_url: https://emptycuphq.github.io/notes/
 repo_url: https://github.com/emptycuphq/notes
 repo_name: emptycuphq/notes
+edit_uri: ""            # Disable edit button for pages after github integration
 
 
 theme:
