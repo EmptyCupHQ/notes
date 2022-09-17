@@ -16,3 +16,20 @@ theme:
     toggle:
       icon: material/toggle-switch-off-outline
       name: Switch to light mode
+
+nav:
+  - Home:
+    - Overview: 'index.md'
+    - Guidelines: 'guidelines.md'
+    - Contributors: 'contributors.md'
+    - Etiquette: 'etiquette.md'
+    - Inspiration: 'inspiration.md'
+    - Vision: 'vision.md'
+
+  - Basics: 'basics.md'
+  - Frontend: 'frontend.md'
+  - Backend: 'backend.md'
+  - Scripting: 'scripting.md'
+  - Deployment: 'deployment.md'
+  - Code: 'code.md'
+  - Concepts: 'concepts.md'
