@@ -13,4 +13,5 @@ A repository of notes for developers, especially beginners. Intended as a quick 
 4. Commit your changes. Learn more about [committing changes](https://emptycuphq.github.io/notes/basics/#git).
 5. Test your changes by running `mkdocs serve` to start a [development server](http://127.0.0.1:8000/notes/). 
 6. Push your changes to the forked repository on github account.
-7. Submit a pull request to the original repository.
+7. Submit a pull request to the original repository.<img width="1436" alt="Screenshot 2022-09-17 at 12 40 05 PM" src="https://user-images.githubusercontent.com/83334788/190845153-5a77598e-0bfd-4fca-b3f0-596b859ec836.png">
+
