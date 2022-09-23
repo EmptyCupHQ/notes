@@ -1,4 +1,4 @@
-site_name: Notes
+site_name: Developer Notes
 site_url: https://emptycuphq.github.io/notes/
 repo_url: https://github.com/emptycuphq/notes
 repo_name: emptycuphq/notes
@@ -36,7 +36,28 @@ nav:
     - Inspiration: 'inspiration.md'
     - Vision: 'vision.md'
 
-  - Basics: 'basics.md'
+  - Basics:
+    - Overview: 'basics.md'
+    - Operating System:
+      - Installation: 'os/install.md'
+      - Filesystem: 'os/filesystem.md'
+      - Users: 'os/users.md'
+      - Software packages: 'os/packages.md'
+    - Command Line:
+      - Essentials: 'cli/essentials.md'
+      - Useful: 'cli/useful.md'
+      - Remote: 'cli/remote.md'
+      - Shell operators: 'cli/operators.md'
+    - Git:
+      - Workflow: 'git/workflow.md'
+      - Github: 'git/github.md'
+      - Commands: 'git/commands.md'
+      - Branches: 'git/branches.md'
+
+    - Others:
+      - Markdown: 'basics/markdown.md'
+      - mkdocs: 'basics/mkdocs.md'
+
   - Frontend: 'frontend.md'
   - Backend: 'backend.md'
   - Scripting: 'scripting.md'

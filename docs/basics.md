@@ -1,5 +1,4 @@
-
-# Basics
+# Basics: Overview
 
 Each point in this page needs to be converted to a separate note. Please contribute with a pull request.
 
@@ -26,11 +25,8 @@ Each point in this page needs to be converted to a separate note. Please contrib
 4. Working with branches: checkout, rebase, merge
 
 
-### Markdown
+### Others
 
-Coming soon
-
-### mkdocs
-
-Coming soon
+1. Markdown
+2. mkdocs
 
