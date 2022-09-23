@@ -414,8 +414,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-contribute" class="md-nav__link">
-    How to contribute
+  <a href="#step-1-setting-up" class="md-nav__link">
+    Step 1: Setting up
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Setting up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-2-working-locally" class="md-nav__link">
+    Step 2: Working locally
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-submit-a-pull-request" class="md-nav__link">
+    Step 3: Submit a pull request
   </a>
   
 </li>
@@ -1012,8 +1032,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#how-to-contribute" class="md-nav__link">
-    How to contribute
+  <a href="#step-1-setting-up" class="md-nav__link">
+    Step 1: Setting up
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Setting up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-2-working-locally" class="md-nav__link">
+    Step 2: Working locally
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-submit-a-pull-request" class="md-nav__link">
+    Step 3: Submit a pull request
   </a>
   
 </li>
@@ -1036,15 +1076,29 @@
 <h1 id="getting-started">Getting Started</h1>
 <p>This repository of notes is intended for quick reference, especially for beginners.
 This is not a textbook. Focus of each note is to provide minimal, dense, clutterfree info for the reader  to get started.</p>
-<h4 id="how-to-contribute">How to contribute</h4>
+<h2 id="step-1-setting-up">Step 1: Setting up</h2>
 <ol>
-<li>Setup a clean operating system (say ubuntu 20.04)</li>
-<li>Setup editor: vscode</li>
-<li>Configure terminal &amp; shell (optional).</li>
-<li>Install git and setup an account on github with SSH access.</li>
-<li>Pull the latest repository.</li>
-<li>Setup virtualenv and install dependencies as per README.md</li>
-<li>Run a local development server for preview &amp; testing.</li>
+<li>First you need to have a clean linux operating system setup. You can install Ubuntu 20.04 on VirtualBox or VMWare workstation if you have a laptop with 4-8GB RAM.</li>
+<li>Install Visual Studio Code or any other code editor you prefer.</li>
+<li>Install Git on your laptop. Sign up for an account on Github. <a href="/basics/git-ssh">Then setup SSH access.</a></li>
+</ol>
+<h3 id="step-2-working-locally">Step 2: Working locally</h3>
+<ol>
+<li>Fork the <a href="https://github.com/emptycuphq/notes">original repository</a> to your own account.</li>
+<li>Clone your forked repository to your laptop.</li>
+<li><a href="/basics/python-venv/">Install python-virtualenv and setup a virtualenv with name 'venv' in the code folder.</a></li>
+<li><a href="/basics/python-pip/">Activate the virtualenv and install the pip dependencies</a>.</li>
+<li>Start the local development server with: <code>mkdocs serve</code></li>
+</ol>
+<h2 id="step-3-submit-a-pull-request">Step 3: Submit a pull request</h2>
+<ol>
+<li>Open the folder in the editor. <a href="basics/mkdocs">Understand how material for mkdocs works.</a></li>
+<li>Make edits in the <code>docs</code> folder to edit the contents.</li>
+<li>Navigate to your <a href="http://127.0.0.1:8000/notes/">local deployment</a> to test the changes.</li>
+<li>Keep making changes till you are satisfied. Then <a href="/basics/git-basics">commit the changes</a>.</li>
+<li>Push to your github account with <code>git push</code>.</li>
+<li>Navigate to the forked repository in your github account using your browser and submit a pull request to the original repository.</li>
+<li><a href="https://github.com/EmptyCupHQ/notes/issues">Raise a github issue on the original repository</a>, if you face any issues.</li>
 </ol>
 
 
