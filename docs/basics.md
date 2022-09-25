@@ -25,8 +25,8 @@ Each point in this page needs to be converted to a separate note. Please contrib
 4. Working with branches: checkout, rebase, merge
 
 
-### Others
+### Docs
 
-1. Markdown
-2. mkdocs
+1. [mkdocs: The documentation system](basics/mkdocs.md)
+2. [Markdown: The syntax used by mkdocs for creating content](basics/markdown.md)
 

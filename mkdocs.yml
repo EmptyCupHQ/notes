@@ -5,6 +5,13 @@ repo_name: emptycuphq/notes
 edit_uri: ""            # Disable edit button for pages after github integration
 
 
+# Mainly for the TODO highlights
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
 theme:
   name: material
   features:
@@ -54,9 +61,9 @@ nav:
       - Commands: 'git/commands.md'
       - Branches: 'git/branches.md'
 
-    - Others:
-      - Markdown: 'basics/markdown.md'
+    - Docs:
       - mkdocs: 'basics/mkdocs.md'
+      - Markdown: 'basics/markdown.md'
 
   - Frontend: 'frontend.md'
   - Backend: 'backend.md'
