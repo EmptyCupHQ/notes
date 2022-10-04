@@ -1,22 +1,3 @@
-<!--
-  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to
-  deal in the Software without restriction, including without limitation the
-  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-  sell copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-  The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the Software.
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-  IN THE SOFTWARE.
--->
-
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -27,19 +8,21 @@
       
       
       
-      <link rel="icon" href="/notes/assets/images/favicon.png">
+        <link rel="canonical" href="https://emptycuphq.github.io/notes/basics/mkdocs/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.0">
     
     
       
-        <title>Developer Notes</title>
+        <title>mkdocs - Developer Notes</title>
       
     
     
-      <link rel="stylesheet" href="/notes/assets/stylesheets/main.2e8b5541.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2e8b5541.min.css">
       
         
-        <link rel="stylesheet" href="/notes/assets/stylesheets/palette.cbb835fc.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
         
       
       
@@ -56,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("/notes/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mkdocs" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -96,7 +84,7 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/notes/." title="Developer Notes" class="md-header__button md-logo" aria-label="Developer Notes" data-md-component="logo">
+    <a href="../.." title="Developer Notes" class="md-header__button md-logo" aria-label="Developer Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -115,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              mkdocs
             
           </span>
         </div>
@@ -209,7 +197,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/notes/." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         Home
       </a>
     </li>
@@ -219,13 +207,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="/notes/basics/" class="md-tabs__link">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
         Basics
       </a>
     </li>
@@ -238,7 +228,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/notes/frontend.md" class="md-tabs__link">
+    <a href="../../frontend.md" class="md-tabs__link">
       Frontend
     </a>
   </li>
@@ -250,7 +240,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/notes/backend.md" class="md-tabs__link">
+    <a href="../../backend.md" class="md-tabs__link">
       Backend
     </a>
   </li>
@@ -262,7 +252,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/notes/scripting.md" class="md-tabs__link">
+    <a href="../../scripting.md" class="md-tabs__link">
       Scripting
     </a>
   </li>
@@ -274,7 +264,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/notes/deployment.md" class="md-tabs__link">
+    <a href="../../deployment.md" class="md-tabs__link">
       Deployment
     </a>
   </li>
@@ -286,7 +276,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/notes/code.md" class="md-tabs__link">
+    <a href="../../code.md" class="md-tabs__link">
       Code
     </a>
   </li>
@@ -298,7 +288,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="/notes/concepts.md" class="md-tabs__link">
+    <a href="../../concepts.md" class="md-tabs__link">
       Concepts
     </a>
   </li>
@@ -331,7 +321,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/notes/." title="Developer Notes" class="md-nav__button md-logo" aria-label="Developer Notes" data-md-component="logo">
+    <a href="../.." title="Developer Notes" class="md-nav__button md-logo" aria-label="Developer Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -388,7 +378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Getting started
       </a>
     </li>
@@ -402,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/stuck/" class="md-nav__link">
+      <a href="../../stuck/" class="md-nav__link">
         Getting stuck
       </a>
     </li>
@@ -416,7 +406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/guidelines/" class="md-nav__link">
+      <a href="../../guidelines/" class="md-nav__link">
         Guidelines
       </a>
     </li>
@@ -430,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/contributors.md" class="md-nav__link">
+      <a href="../../contributors.md" class="md-nav__link">
         Contributors
       </a>
     </li>
@@ -444,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/etiquette.md" class="md-nav__link">
+      <a href="../../etiquette.md" class="md-nav__link">
         Etiquette
       </a>
     </li>
@@ -458,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/inspiration.md" class="md-nav__link">
+      <a href="../../inspiration.md" class="md-nav__link">
         Inspiration
       </a>
     </li>
@@ -472,7 +462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/vision.md" class="md-nav__link">
+      <a href="../../vision.md" class="md-nav__link">
         Vision
       </a>
     </li>
@@ -492,12 +482,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -520,7 +512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/basics/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -560,7 +552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/os/install.md" class="md-nav__link">
+      <a href="../../os/install.md" class="md-nav__link">
         Installation
       </a>
     </li>
@@ -574,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/os/filesystem.md" class="md-nav__link">
+      <a href="../../os/filesystem.md" class="md-nav__link">
         Filesystem
       </a>
     </li>
@@ -588,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/os/users.md" class="md-nav__link">
+      <a href="../../os/users.md" class="md-nav__link">
         Users
       </a>
     </li>
@@ -602,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/os/packages.md" class="md-nav__link">
+      <a href="../../os/packages.md" class="md-nav__link">
         Software packages
       </a>
     </li>
@@ -649,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/cli/essentials.md" class="md-nav__link">
+      <a href="../../cli/essentials.md" class="md-nav__link">
         Essentials
       </a>
     </li>
@@ -663,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/cli/useful.md" class="md-nav__link">
+      <a href="../../cli/useful.md" class="md-nav__link">
         Useful
       </a>
     </li>
@@ -677,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/cli/remote.md" class="md-nav__link">
+      <a href="../../cli/remote.md" class="md-nav__link">
         Remote
       </a>
     </li>
@@ -691,7 +683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/cli/operators.md" class="md-nav__link">
+      <a href="../../cli/operators.md" class="md-nav__link">
         Shell operators
       </a>
     </li>
@@ -738,7 +730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/git/workflow.md" class="md-nav__link">
+      <a href="../../git/workflow.md" class="md-nav__link">
         Workflow
       </a>
     </li>
@@ -752,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/git/github.md" class="md-nav__link">
+      <a href="../../git/github.md" class="md-nav__link">
         Github
       </a>
     </li>
@@ -766,7 +758,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/git/commands.md" class="md-nav__link">
+      <a href="../../git/commands.md" class="md-nav__link">
         Commands
       </a>
     </li>
@@ -780,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/git/branches.md" class="md-nav__link">
+      <a href="../../git/branches.md" class="md-nav__link">
         Branches
       </a>
     </li>
@@ -799,12 +791,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" checked>
       
       
       
@@ -825,11 +819,73 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/notes/basics/mkdocs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          mkdocs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         mkdocs
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow" class="md-nav__link">
+    Workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocsyml" class="md-nav__link">
+    mkdocs.yml
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -841,7 +897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/basics/markdown/" class="md-nav__link">
+      <a href="../markdown/" class="md-nav__link">
         Markdown
       </a>
     </li>
@@ -870,7 +926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/frontend.md" class="md-nav__link">
+      <a href="../../frontend.md" class="md-nav__link">
         Frontend
       </a>
     </li>
@@ -885,7 +941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/backend.md" class="md-nav__link">
+      <a href="../../backend.md" class="md-nav__link">
         Backend
       </a>
     </li>
@@ -900,7 +956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/scripting.md" class="md-nav__link">
+      <a href="../../scripting.md" class="md-nav__link">
         Scripting
       </a>
     </li>
@@ -915,7 +971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/deployment.md" class="md-nav__link">
+      <a href="../../deployment.md" class="md-nav__link">
         Deployment
       </a>
     </li>
@@ -930,7 +986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/code.md" class="md-nav__link">
+      <a href="../../code.md" class="md-nav__link">
         Code
       </a>
     </li>
@@ -945,7 +1001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/notes/concepts.md" class="md-nav__link">
+      <a href="../../concepts.md" class="md-nav__link">
         Concepts
       </a>
     </li>
@@ -969,6 +1025,44 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow" class="md-nav__link">
+    Workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocsyml" class="md-nav__link">
+    mkdocs.yml
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -980,10 +1074,73 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-    <h1>Coming soon</h1>
-    <p>This repository of notes is being built <b>bottom up</b>, not <s>top down</s>. That means notes are not added in order starting from the top. Whenever someone finds a note they need and it is missing, they can contribute it.</p>
-    <p>You can contribute this note. Please <a href="/notes/guidelines/">check the guidelines</a> and <a href="/">get started</a>.</p>
+                  
 
+
+<h1 id="mkdocs">MkDocs</h1>
+<p><a href="https://www.mkdocs.org/">Mkdocs</a> is a static site generator that is mainly used for documentation. mkdocs "builds" (or generates) HTML documentation from content files written in <a href="/basics/markdown.md">Markdown</a>. It comes with a built in development server to preview the documentation locally and a feature to deploy a live version to <a href="/basics/gh-pages.md">Github Pages</a>. It can be configured using a single YAML file <code>mkdocs.yml</code> present in the root directory.</p>
+<h3 id="requirements">Requirements</h3>
+<p>Python (as MkDocs is a Python package)</p>
+<ul>
+<li>To check if python is installed on your system run <code>python --version</code> in the command line.</li>
+<li>If the output is something like <code>Python 3.10.6</code> then you have python installed, skip to pip.</li>
+<li>If the output is something like <code>Command 'python' not found,...</code> then run <code>sudo apt-get install python3</code> and follow the commands to get python installed in your system.</li>
+</ul>
+<p>pip (most common python package manager)</p>
+<ul>
+<li>To check if you already have pip installed run <code>pip --version</code> in the command line.</li>
+<li>If the output is something like <code>pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)</code> then you have pip installed, skip to MkDocs installation.</li>
+<li>If the output is something like <code>Command 'pip' not found,...</code> then first run <code>sudo apt update</code> then run <code>sudo apt install python3-pip</code>, confirm for the pip installation.</li>
+</ul>
+<div class="admonition warning">
+<p>TODO: Installing python &amp; pip should be moved into a separate note as it may be referred by multiple sources. DRY.</p>
+</div>
+<div class="admonition warning">
+<p>TODO: Add instructions to setup a virtualenv to maintain a clean environment</p>
+</div>
+<h3 id="installation">Installation</h3>
+<ul>
+<li>To install mkdocs run <code>pip install mkdocs</code>, to confirm the installation run <code>mkdocs --version</code>.</li>
+<li>Then you require to install material (theme of mkdocs used in the project) using <code>pip install mkdocs-material</code></li>
+<li>run <code>mkdocs serve</code> in the project directory to start a local development server. If you are able to see the project deployed then installation was successful.</li>
+</ul>
+<h3 id="workflow">Workflow</h3>
+<p>In the project folder there is a <code>docs</code> folder which contains all the markdown files used to build the documentation, by convention <code>docs/index.md</code> is the homepage. You can add content by editing the files or adding a new file.</p>
+<p>Below is step by step workflow for adding &amp; publishing a new note:</p>
+<ol>
+<li>Add a note:<ul>
+<li>First check under which directory in <code>docs</code> you need to add the file, you can do so by checking the note's place in the site tree, which is mentioned in the <code>nav:</code> in the <code>mkdocs.yml</code> file.</li>
+<li>Add and edit <code>note_name.md</code> in the proper directory and save it.</li>
+</ul>
+</li>
+<li>Preview the note:<ul>
+<li>run <code>mkdocs serve</code> it starts a local development server to see how the site will look published.</li>
+<li>after every edit just save your edits locally and the page auto-updates itself.</li>
+</ul>
+</li>
+<li>Publish to GitHub Pages:<ul>
+<li>once you are done making edits on the project you can publish the project on github pages, run <code>mkdocs gh-deploy</code> to do so.</li>
+<li>this will build the docs and commit them to gh-pages branch and push the gh-pages branch to GitHub and documentation should appear at <code>&lt;username&gt;.github.io/&lt;repository&gt;</code>.</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p><code>mkdocs serve</code> doesn't generate the build folder. It directly serves from the markdown files. The build folder <code>site</code> can be generated by using <code>mkdocs build</code>, if necessary.</p>
+<p><code>mkdocs gh-deploy</code> builds the documentation and adds all the build output files to a separate <code>gh-pages</code> branch and commits and pushes to GitHub triggering a publish.</p>
+</div>
+<h3 id="mkdocsyml">mkdocs.yml</h3>
+<p>A quick reference for key settings:</p>
+<ul>
+<li><code>site_name</code> is displayed on the top left of the documentation site.</li>
+<li><code>theme</code> sets the theme name and theme specific configuration. Learn more.</li>
+<li><code>nav</code> defines the structure of the sidebar in the " - Title: ./file/path" format.</li>
+</ul>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -993,6 +1150,42 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Overview
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../markdown/" class="md-footer__link md-footer__link--next" aria-label="Next: Markdown" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Markdown
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1015,10 +1208,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "/notes/", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking"], "search": "/notes/assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="/notes/assets/javascripts/bundle.48f2be22.min.js"></script>
+      <script src="../../assets/javascripts/bundle.48f2be22.min.js"></script>
       
     
   </body>
