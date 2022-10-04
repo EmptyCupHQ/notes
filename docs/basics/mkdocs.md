@@ -1,6 +1,10 @@
 # MkDocs
 
-[Mkdocs](https://www.mkdocs.org/) is a static site generator that is mainly used for documentation. mkdocs "builds" (or generates) HTML documentation from content files written in [Markdown](/basics/markdown.md). It comes with a built in development server to preview the documentation locally and a feature to deploy a live version to [Github Pages](/basics/gh-pages.md). It can be configured using a single YAML file `mkdocs.yml` present in the root directory.
+[Mkdocs](https://www.mkdocs.org/) is a static site generator that is mainly used for documentation.
+
+mkdocs "builds" (or generates) HTML documentation from content files written in [Markdown](/basics/markdown.md). It comes with a built in development server to preview the documentation locally and a feature to deploy a live version to [Github Pages](/basics/gh-pages.md).
+
+It can be configured using a single YAML file `mkdocs.yml` present in the root directory.
 
 
 ### Requirements

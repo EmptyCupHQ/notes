@@ -10,7 +10,7 @@ This is not a textbook. Focus of each note is to provide minimal, dense, clutter
 3. Install Git on your laptop. Sign up for an account on Github. [Then setup SSH access.](/basics/git-ssh)
 
 
-### Step 2: Working locally
+## Step 2: Working locally
 
 1. Fork the [original repository](https://github.com/emptycuphq/notes) to your own account.
 2. Clone your forked repository to your laptop.
