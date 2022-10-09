@@ -590,14 +590,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_2">
-          Operating System
+          OS
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Operating System" data-md-level="2">
+      <nav class="md-nav" aria-label="OS" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
-          Operating System
+          OS
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -679,14 +679,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_3">
-          Command Line
+          Shell
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Command Line" data-md-level="2">
+      <nav class="md-nav" aria-label="Shell" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Command Line
+          Shell
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -696,7 +696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cli/essentials.md" class="md-nav__link">
+      <a href="shell/essentials.md" class="md-nav__link">
         Essentials
       </a>
     </li>
@@ -710,7 +710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cli/useful.md" class="md-nav__link">
+      <a href="shell/useful.md" class="md-nav__link">
         Useful
       </a>
     </li>
@@ -724,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cli/remote.md" class="md-nav__link">
+      <a href="shell/remote.md" class="md-nav__link">
         Remote
       </a>
     </li>
@@ -738,8 +738,8 @@
   
   
     <li class="md-nav__item">
-      <a href="cli/operators.md" class="md-nav__link">
-        Shell operators
+      <a href="shell/operators.md" class="md-nav__link">
+        Operators
       </a>
     </li>
   
@@ -890,6 +890,67 @@
     <li class="md-nav__item">
       <a href="basics/markdown/" class="md-nav__link">
         Markdown
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Python" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="basics/python-virtualenv.md" class="md-nav__link">
+        Virtualenv
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="basics/python-pip.md" class="md-nav__link">
+        Pip
       </a>
     </li>
   
@@ -1064,26 +1125,27 @@
 <h1 id="getting-started">Getting Started</h1>
 <p>This repository of notes is intended for quick reference, especially for beginners.
 This is not a textbook. Focus of each note is to provide minimal, dense, clutterfree info for the reader  to get started.</p>
+<p>To contribute, submit a pull request. Here's a step by step guide:</p>
 <h2 id="step-1-setting-up">Step 1: Setting up</h2>
 <ol>
 <li>First you need to have a clean linux operating system setup. You can install Ubuntu 20.04 on VirtualBox or VMWare workstation if you have a laptop with 4-8GB RAM.</li>
 <li>Install Visual Studio Code or any other code editor you prefer.</li>
-<li>Install Git on your laptop. Sign up for an account on Github. <a href="/basics/git-ssh">Then setup SSH access.</a></li>
+<li>Install Git on your laptop. Sign up for an account on Github. <a href="basics/git-ssh.md">Then setup SSH access.</a></li>
 </ol>
 <h2 id="step-2-working-locally">Step 2: Working locally</h2>
 <ol>
 <li>Fork the <a href="https://github.com/emptycuphq/notes">original repository</a> to your own account.</li>
 <li>Clone your forked repository to your laptop.</li>
-<li><a href="/basics/python-venv/">Install python-virtualenv and setup a virtualenv with name 'venv' in the code folder.</a></li>
-<li><a href="/basics/python-pip/">Activate the virtualenv and install the pip dependencies</a>.</li>
+<li>Install <a href="basics/python-venv.md">python-virtualenv</a> &amp; setup a virtualenv with name 'venv' in the code folder.</li>
+<li><a href="basics/python-pip.md">Activate the virtualenv and install the pip dependencies</a>.</li>
 <li>Start the local development server with: <code>mkdocs serve</code></li>
 </ol>
 <h2 id="step-3-submit-a-pull-request">Step 3: Submit a pull request</h2>
 <ol>
-<li>Open the folder in the editor. <a href="basics/mkdocs">Understand how material for mkdocs works.</a></li>
+<li>Open the folder in the editor. <a href="basics/mkdocs/">Understand how material for mkdocs works.</a></li>
 <li>Make edits in the <code>docs</code> folder to edit the contents.</li>
 <li>Navigate to your <a href="http://127.0.0.1:8000/notes/">local deployment</a> to test the changes.</li>
-<li>Keep making changes till you are satisfied. Then <a href="/basics/git-basics">commit the changes</a>.</li>
+<li>Keep making changes till you are satisfied. Then <a href="basics/git-basics.md">commit the changes</a>.</li>
 <li>Push to your github account with <code>git push</code>.</li>
 <li>Navigate to the forked repository in your github account using your browser and submit a pull request to the original repository.</li>
 <li><a href="https://github.com/EmptyCupHQ/notes/issues">Raise a github issue on the original repository</a>, if you face any issues.</li>
