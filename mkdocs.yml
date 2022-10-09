@@ -45,26 +45,27 @@ nav:
 
   - Basics:
     - Overview: 'basics.md'
-    - Operating System:
+    - OS:
       - Installation: 'os/install.md'
       - Filesystem: 'os/filesystem.md'
       - Users: 'os/users.md'
       - Software packages: 'os/packages.md'
-    - Command Line:
-      - Essentials: 'cli/essentials.md'
-      - Useful: 'cli/useful.md'
-      - Remote: 'cli/remote.md'
-      - Shell operators: 'cli/operators.md'
+    - Shell:
+      - Essentials: 'shell/essentials.md'
+      - Useful: 'shell/useful.md'
+      - Remote: 'shell/remote.md'
+      - Operators: 'shell/operators.md'
     - Git:
       - Workflow: 'git/workflow.md'
       - Github: 'git/github.md'
       - Commands: 'git/commands.md'
       - Branches: 'git/branches.md'
-
     - Docs:
       - mkdocs: 'basics/mkdocs.md'
       - Markdown: 'basics/markdown.md'
-
+    - Python:
+      - Virtualenv: 'basics/python-virtualenv.md'
+      - Pip: 'basics/python-pip.md'
   - Frontend: 'frontend.md'
   - Backend: 'backend.md'
   - Scripting: 'scripting.md'

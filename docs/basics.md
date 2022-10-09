@@ -9,7 +9,7 @@ Each point in this page needs to be converted to a separate note. Please contrib
 3. Understanding file permissions, users & PATH
 4. Installing software packages that you need
 
-### Command Line
+### Shell Commands
 
 - ls, cp, mv, rm, mkdir, rmdir, chmod, cat, export
 - . .. | > >> &
@@ -30,3 +30,8 @@ Each point in this page needs to be converted to a separate note. Please contrib
 1. [mkdocs: The documentation system](basics/mkdocs.md)
 2. [Markdown: The syntax used by mkdocs for creating content](basics/markdown.md)
 
+
+### Python
+
+1. [Virtualenv: Clean separate environment for python projects](basics/python-virtualenv.md)
+2. [pip: Most popular python package manager](basics/python-pip.md)
