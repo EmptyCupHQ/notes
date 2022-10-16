@@ -56,8 +56,8 @@ nav:
       - Remote: 'shell/remote.md'
       - Operators: 'shell/operators.md'
     - Git:
-      - Workflow: 'git/workflow.md'
       - Github: 'git/github.md'
+      - Workflow: 'git/workflow.md'
       - Commands: 'git/commands.md'
       - Branches: 'git/branches.md'
     - Docs:

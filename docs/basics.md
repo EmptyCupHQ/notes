@@ -19,9 +19,9 @@ Each point in this page needs to be converted to a separate note. Please contrib
 
 ### Git
 
-0. Typical workflow in Git
 1. Creating account on github with SSH access
-2. git basics: clone, pull, status, diff, add, commit, reset, push
+2. [Git Workflow: Using version control](git/workflow.md)
+3. git basics: clone, pull, status, diff, add, commit, reset, push
 4. Working with branches: checkout, rebase, merge
 
 
