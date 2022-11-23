@@ -16,7 +16,7 @@ To contribute, submit a pull request. Here's a step by step guide:
 
 1. Fork the [original repository](https://github.com/emptycuphq/notes) to your own account.
 2. Clone your forked repository to your laptop.
-3. Install [python-virtualenv](basics/python-venv.md) & setup a virtualenv with name 'venv' in the code folder.
+3. Install [python-virtualenv](basics/python-virtualenv.md) & setup a virtualenv with name 'venv' in the code folder.
 4. [Activate the virtualenv and install the pip dependencies](basics/python-pip.md).
 5. Start the local development server with: `mkdocs serve`
 
