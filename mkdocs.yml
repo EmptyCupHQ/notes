@@ -50,6 +50,9 @@ nav:
       - Filesystem: 'os/filesystem.md'
       - Users: 'os/users.md'
       - Software packages: 'os/packages.md'
+      - Linux: 'os/linux.md'
+    - Networking:
+      - Overview: 'Networking/overview.md'
     - Shell:
       - Essentials: 'shell/essentials.md'
       - Useful: 'shell/useful.md'
