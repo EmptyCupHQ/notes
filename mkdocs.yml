@@ -76,5 +76,8 @@ nav:
     - Flask: 'backend/flask.md'
   - Scripting: 'scripting.md'
   - Deployment: 'deployment.md'
-  - Code: 'code.md'
+  - Code:
+    - Style Guide: 'style.md'
+    - Guidelines: 'guidelines.md'
+  - Development: ''
   - Concepts: 'concepts.md'
