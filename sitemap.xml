@@ -2,37 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://emptycuphq.github.io/notes/</loc>
-         <lastmod>2022-10-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://emptycuphq.github.io/notes/basics/</loc>
-         <lastmod>2022-10-21</lastmod>
+         <lastmod>2025-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emptycuphq.github.io/notes/guidelines/</loc>
-         <lastmod>2022-10-21</lastmod>
+         <lastmod>2025-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emptycuphq.github.io/notes/stuck/</loc>
-         <lastmod>2022-10-21</lastmod>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/Networking/overview/</loc>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/backend/</loc>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/backend/flask/</loc>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/basics/</loc>
+         <lastmod>2025-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emptycuphq.github.io/notes/basics/markdown/</loc>
-         <lastmod>2022-10-21</lastmod>
+         <lastmod>2025-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emptycuphq.github.io/notes/basics/mkdocs/</loc>
-         <lastmod>2022-10-21</lastmod>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/basics/python-virtualenv/</loc>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/code/guidelines/</loc>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/frontend/</loc>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/git/pr/</loc>
+         <lastmod>2025-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emptycuphq.github.io/notes/git/workflow/</loc>
-         <lastmod>2022-10-21</lastmod>
+         <lastmod>2025-06-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emptycuphq.github.io/notes/os/linux/</loc>
+         <lastmod>2025-06-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
